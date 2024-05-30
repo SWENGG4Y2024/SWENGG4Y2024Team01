@@ -4,10 +4,10 @@ This document identifies and analyzes the stakeholders involved in the developme
 
 **1. Stakeholder Identification**
 
-| Stakeholder Group | Description | 
-
-| **Customers** | Individuals who will use the platform to browse and purchase products. |
-| **Sellers** | Businesses or individuals who will sell products through the platform. |
+Stakeholder Group | Description 
+--- | --- 
+**Customers** | Individuals who will use the platform to browse and purchase products.
+**Sellers** | Businesses or individuals who will sell products through the platform.
 | **Project Sponsors** | Individuals or groups providing financial and strategic support for the project. | 
 | **Project Manager** | The individual responsible for planning, executing, and completing the project. |
 | **Development Team** | The team responsible for designing, coding, and testing the application. |
@@ -20,7 +20,7 @@ This document identifies and analyzes the stakeholders involved in the developme
 **2. Stakeholder Analysis**
 
 | Stakeholder Group | Interest in Project | Influence on Project | Potential Impact | Engagement Strategy |
-
+--- | --- | --- | --- | ---
 | **Customers** |  Easy-to-use platform, wide product selection, competitive prices, secure transactions, reliable service. |  High (through adoption and feedback). |  Can make or break the platform's success. | Provide excellent user experience, solicit feedback, offer incentives, build community. |
 | **Sellers** |  High sales volume, efficient order management, reasonable fees, marketing support. |  Moderate to High (through product offerings and feedback). |  Can influence the platform's attractiveness to customers. | Offer competitive selling plans, provide marketing tools, ensure efficient order fulfillment, foster seller community. |
 | **Project Sponsors** |  Return on investment (ROI), on-time delivery, meeting business objectives. |  High (funding and strategic decisions). | Can influence project direction and resource allocation. | Regular progress reports, clear communication of milestones and risks, alignment with business goals. | 
