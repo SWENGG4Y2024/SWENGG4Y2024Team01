@@ -173,7 +173,8 @@ ZestKart will be a web-based platform accessible through various devices such as
 
 The ZestKart application will utilize a relational database management system (RDBMS) to store and manage data. The following entity-relationship diagram (ERD) illustrates the proposed database schema:
 
-**(Include ERD Diagram Here - Tools like Draw.io, Lucidchart, or similar can be used.**
+![image](https://github.com/SWENGG4Y2024/SWENGG4Y2024Team01/assets/59111478/6a110279-6f06-4c7b-ad1f-2753b4cca142)
+
 
 ### 4.1 Entities and Attributes
 
