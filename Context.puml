@@ -1,0 +1,23 @@
+@startuml  
+!include [https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml](https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml "https://raw.githubusercontent.com/plantuml-stdlib/c4-plantuml/master/c4_context.puml")  
+' uncomment the following line and comment the first to use locally  
+' !include C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+title System Context diagram for ZestKart
+
+Person(customer, "Customer", "Registers to browse and purchase products.")  
+Person(seller, "Seller", "Registers to list and sell products.")  
+System(zestkart, "ZestKart E-commerce Platform", "Allows customers to browse, purchase products, and sellers to manage products and orders.")
+
+System_Ext(payment_gateway, "Payment Gateway", "Processes online payments securely (e.g., Stripe, PayPal).")  
+System_Ext(email_system, "Email System", "Sends order confirmations, shipping notifications, etc.")  
+System_Ext(shipping_provider, "Shipping Provider", "Handles shipping and delivery of products.")
+
+Rel(customer, zestkart, "Browses & Purchases")  
+Rel(seller, zestkart, "Manages Products & Orders")  
+Rel(zestkart, payment_gateway, "Processes Payments", "API")  
+Rel(zestkart, email_system, "Sends Notifications", "SMTP")  
+Rel(zestkart, shipping_provider, "Manages Shipping", "API")  
+@enduml
