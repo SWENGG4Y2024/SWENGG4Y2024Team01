@@ -63,7 +63,7 @@ The ZestKart application aims to provide a platform for businesses and individua
 
 ### 1.5 References
 - [SWEBOK Guide](https://www.computer.org/web/swebok)
-- [IEEE Standard 830-1998](https://standards.ieee.org/standard/830-1998.html)
+- [IEEE Standard 829-2008](https://standards.ieee.org/standard/829-2008.html)
 
 ## Overall Description
 
